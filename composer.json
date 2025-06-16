@@ -1,5 +1,6 @@
 {
     "name": "mlsolutions/chartjs-widget",
+    "version": "1.0.0",
     "description": "A chartjs widget for laravel nova-dashboard.",
     "keywords": [
         "laravel",
