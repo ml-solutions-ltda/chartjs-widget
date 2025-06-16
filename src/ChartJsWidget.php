@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace DigitalCreative\ChartJsWidget;
+namespace MlSolutions\ChartJsWidget;
 
-use DigitalCreative\NovaDashboard\Card\View;
-use DigitalCreative\NovaDashboard\Card\Widget;
+use MlSolutions\NovaDashboard\Card\View;
+use MlSolutions\NovaDashboard\Card\Widget;
 use Exception;
 use Illuminate\Support\Collection;
 use Laravel\Nova\Http\Requests\NovaRequest;

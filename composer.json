@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DigitalCreative\\ChartJsWidget\\": "src/"
+            "MlSolutions\\ChartJsWidget\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DigitalCreative\\ChartJsWidget\\WidgetServiceProvider"
+                "MlSolutions\\ChartJsWidget\\WidgetServiceProvider"
             ]
         }
     },

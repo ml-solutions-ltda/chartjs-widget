@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace DigitalCreative\ChartJsWidget\Charts;
+namespace MlSolutions\ChartJsWidget\Charts;
 
-use DigitalCreative\ChartJsWidget\ChartJsWidget;
+use MlSolutions\ChartJsWidget\ChartJsWidget;
 
 abstract class PieChartWidget extends ChartJsWidget
 {
