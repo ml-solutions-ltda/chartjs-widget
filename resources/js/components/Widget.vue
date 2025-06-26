@@ -79,7 +79,6 @@ export default {
   data() {
     return {
       activeTabKey: this.card.value[0].key,
-      value: this.card.value,
     }
   },
   computed: {
