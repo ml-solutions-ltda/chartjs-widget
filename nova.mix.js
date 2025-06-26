@@ -14,12 +14,13 @@ class NovaExtension {
     webpackConfig(webpackConfig) {
         webpackConfig.externals = {
             vue: 'Vue',
+            'laravel-nova': 'LaravelNova',
+            'laravel-nova-ui': 'LaravelNovaUi',
         }
 
         webpackConfig.resolve.alias = {
             ...(webpackConfig.resolve.alias || {}),
-            'laravel-nova-ui': path.join(__dirname, '../../vendor/laravel/nova/node_modules/laravel-nova-ui'),
-            'laravel-nova': path.join(__dirname, '../../vendor/laravel/nova/resources/js/mixins/packages.js'),
+            '@': path.resolve(__dirname, './vendor/laravel/nova/resources/js/'),
         }
 
         webpackConfig.output = {
