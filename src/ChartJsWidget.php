@@ -14,7 +14,7 @@ abstract class ChartJsWidget extends Widget
 {
     public string $type;
 
-    public $component = 'chart-widget';
+    public $component = 'chartjs-widget';
 
     public function title(string $title): self
     {
